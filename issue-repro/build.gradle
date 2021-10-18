@@ -24,4 +24,8 @@ android {
 dependencies {
     implementation project(':lottie')
     implementation "androidx.appcompat:appcompat:$appcompatVersion"
+    implementation "androidx.core:core-ktx:$coreVersion"
+}
+repositories {
+  mavenCentral()
 }
