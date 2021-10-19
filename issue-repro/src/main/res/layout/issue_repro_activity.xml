@@ -8,8 +8,17 @@
         android:id="@+id/animation_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="top|center_horizontal"
         app:lottie_fileName="AndroidWave.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        app:lottie_fileName="loading-gradient-strokes.json"
         app:lottie_autoPlay="true"
         app:lottie_loop="true" />
 </FrameLayout>
